@@ -11,19 +11,17 @@ const PROJECTS = [
       image: project1
     },
     {
-      id: 3,
-      title: 'Operating Systems Final Project',
-      description: 'My unique final project for my university Operating Systems course.',
-      link: 'https://github.com/15Dkatz/example',
-      image: project3
-    },
-    {
       id: 2,
       title: 'Tic Tac Toe',
       description: 'A tic tac toe app created with HTML, CSS, and Javascript',
       link: 'https://alexanderross936.github.io/home.html',
       image: project2
     },
+    {id: 3,
+    title: 'Kitchen Inventory',
+    description: 'An app to keep track of your ingredients',
+    link: 'https://whispering-journey-02450.herokuapp.com/',
+  }
   ];
   
   export default PROJECTS;

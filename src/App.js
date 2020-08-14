@@ -13,12 +13,6 @@ const ComponentClassInstance = new ComponentClass();
 
 class App extends Component {
     state = { displayBio: false }
-    // constructor(){
-    //     super();
-    //     this.state = { displayBio: false };
-    
-    //     this.toggleDisplayBio = this.toggleDisplayBio.bind(this);
-    // }
 
 toggleDisplayBio = () => {
     this.setState({ displayBio: !this.state.displayBio })
@@ -37,8 +31,8 @@ toggleDisplayBio = () => {
     {
         this.state.displayBio ? (
             <div>
-        <p>I live in San Antonio</p>
-        <p>My favorite language is Javascript.</p>
+        <p>I am a developer in the San Antonio/Austin area.</p>
+        <p>Coding challenges are welcome!</p>
         <button onClick={this.toggleDisplayBio}>Show Less</button>
         </div>
     ) : (
