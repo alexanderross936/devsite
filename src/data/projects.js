@@ -21,6 +21,7 @@ const PROJECTS = [
     title: 'Kitchen Inventory',
     description: 'An app to keep track of your ingredients',
     link: 'https://whispering-journey-02450.herokuapp.com/',
+    image: project3
   }
   ];
   
