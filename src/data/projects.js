@@ -23,17 +23,17 @@ const PROJECTS = [
     link: 'https://whispering-journey-02450.herokuapp.com/',
     image: project3
   },
-  {id: 3,
+  {id: 4,
     title: 'Beer App',
     description: 'Practice returning data from external beer API',
     link: 'https://thawing-depths-37243.herokuapp.com/',
-    image: project3
+    image: project1
   },
-  {id: 3,
+  {id: 5,
     title: 'Random User Generator',
     description: 'Practice returning data from external random user API',
     link: 'https://calm-thicket-25727.herokuapp.com/',
-    image: project3
+    image: project2
   }
   ];
   
