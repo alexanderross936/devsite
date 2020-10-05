@@ -3,6 +3,13 @@ import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
 
 const PROJECTS = [
+  {
+    id: 1,
+    title: 'Notes App',
+    description: 'An App to keep track of important notes!',
+    link: 'https://intense-river-80681.herokuapp.com/',
+    image: project1
+  },
     {
       id: 1,
       title: 'Twitter Clone',

@@ -33,7 +33,14 @@ toggleDisplayBio = () => {
             <div>
         <p>I am a developer in the San Antonio/Austin area.</p>
         <p>Coding challenges are welcome!</p>
-        <button onClick={this.toggleDisplayBio}>Show Less</button>
+        <button style={{
+  Color: "#4CAF50", /* Green */
+  border: "none",
+  padding: "15px 32px",
+  textAlign: "center",
+  display: "inline-block",
+  fontSize: "16px"
+}} onClick={this.toggleDisplayBio}>Show Less</button>
         </div>
     ) : (
         <div>
