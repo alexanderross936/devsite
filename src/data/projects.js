@@ -27,7 +27,7 @@ const PROJECTS = [
     {id: 3,
     title: 'Kitchen Inventory',
     description: 'An app to keep track of your ingredients',
-    link: 'https://whispering-journey-02450.herokuapp.com/',
+    link: 'https://enigmatic-mountain-04233.herokuapp.com/',
     image: project3
   },
   {id: 4,
